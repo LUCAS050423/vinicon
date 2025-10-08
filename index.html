@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Divoos Vinhos — Vinícola Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">🍷 Divoos Vinhos</h1>
+      <nav class="nav">
+        <a href="#loja">Loja</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Descubra vinhos escolhidos com carinho</h2>
+          <p>Selecione, prove e receba em casa — a curadoria perfeita pra todos os momentos.</p>
+          <a class="btn" href="#loja">Ver Vinhos</a>
+        </div>
+        <div class="hero-visual">
+          <!-- Placeholder SVG bottle -->
+          <svg width="180" height="280" viewBox="0 0 120 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="40" y="10" width="40" height="40" rx="6" fill="rgba(255,255,255,0.08)"/>
+            <rect x="30" y="50" width="60" height="120" rx="20" fill="rgba(255,255,255,0.06)"/>
+            <ellipse cx="60" cy="180" rx="30" ry="6" fill="rgba(0,0,0,0.2)"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="loja" class="container loja">
+      <h3>Nossa seleção</h3>
+      <div class="cards">
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200?text=Cabernet" alt="Cabernet Sauvignon">
+          <div class="card-body">
+            <h4>Cabernet Sauvignon</h4>
+            <p class="desc">Corpo intenso, notas de frutas negras e madeira.</p>
+            <div class="card-row">
+              <span class="price">R$ 89,90</span>
+              <button class="btn small">Adicionar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200?text=Merlot" alt="Merlot">
+          <div class="card-body">
+            <h4>Merlot Reserva</h4>
+            <p class="desc">Suave, taninos macios e final aveludado.</p>
+            <div class="card-row">
+              <span class="price">R$ 74,50</span>
+              <button class="btn small">Adicionar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200?text=Rosé" alt="Rosé">
+          <div class="card-body">
+            <h4>Rosé Floral</h4>
+            <p class="desc">Leve e refrescante, perfeito para tardes.</p>
+            <div class="card-row">
+              <span class="price">R$ 59,00</span>
+              <button class="btn small">Adicionar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/300x200?text=Espumante" alt="Espumante">
+          <div class="card-body">
+            <h4>Espumante Brut</h4>
+            <p class="desc">Bubbles finas, acidez equilibrada — ótimo pra celebrar.</p>
+            <div class="card-row">
+              <span class="price">R$ 99,00</span>
+              <button class="btn small">Adicionar</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre" class="container sobre">
+      <h3>Sobre a vinícola</h3>
+      <p>Na Divoos Vinhos selecionamos rótulos com atenção ao terroir e à qualidade — para consumidores que apreciam experiências gastronômicas autênticas.</p>
+    </section>
+
+    <section id="contato" class="container contato">
+      <h3>Fale conosco</h3>
+      <form class="contato-form">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" placeholder="Seu nome" required>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="seu@exemplo.com" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" rows="4" placeholder="Dúvidas, pedidos ou sugestões"></textarea>
+
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Divoos Vinhos — Todos os direitos reservados.</p>
+      <small>Entrega para todo Brasil</small>
+    </div>
+  </footer>
+</body>
+</html>
